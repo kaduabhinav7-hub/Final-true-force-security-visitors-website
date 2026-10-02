@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 - Page Not Found | True Force Security Services</title>
+  <meta name="description" content="The page you requested could not be found. Return to True Force Security Services homepage."/>
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .notfound-wrap {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 24px 60px;
+    }
+    .notfound-code {
+      font: clamp(90px, 16vw, 160px)/0.9 'Bebas Neue', sans-serif;
+      color: var(--gold);
+      letter-spacing: 4px;
+      margin-bottom: 12px;
+      text-shadow: 0 0 30px rgba(245, 166, 35, 0.3);
+    }
+    .notfound-title {
+      font: clamp(28px, 4vw, 42px)/1.1 'Bebas Neue', sans-serif;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+    .notfound-desc {
+      color: var(--muted);
+      max-width: 520px;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .notfound-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a class="logo" href="index.html" aria-label="True Force Security">
+      <img class="logo-img" src="assets/images/logo.png" alt="True Force Security Services logo">
+      <div class="brand"><b>TRUE FORCE</b><small>Security Services</small></div>
+    </a>
+    <ul class="links" id="links">
+      <li><a href="index.html#overview">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a class="cta" href="index.html#contact">Get A Quote</a></li>
+    </ul>
+    <button class="theme" id="theme" aria-label="Toggle dark and light mode"><span id="ti">☀️</span><span id="tl">LIGHT</span></button>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main class="notfound-wrap">
+  <div class="notfound-code">404</div>
+  <h1 class="notfound-title">ACCESS DENIED / PAGE NOT FOUND</h1>
+  <p class="notfound-desc">The checkpoint you are looking for has been moved, removed, or never existed in our patrol perimeter. Return to safety below.</p>
+  <div class="notfound-actions">
+    <a class="btn btn-p" href="index.html">🛡️ Return To Homepage</a>
+    <a class="btn btn-wa" href="https://wa.me/917385629397" target="_blank" rel="noopener">💬 Contact Support</a>
+  </div>
+</main>
+
+<footer>
+  <div class="fbot" style="margin-top:0; border-top:1px solid var(--border); justify-content:center;">
+    <p>© 2025 True Force Security Services Pvt Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

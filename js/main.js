@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s), PH='917385629397';
 const root=document.documentElement;
 function setTheme(t){root.dataset.theme=t;$('#ti').textContent=t==='dark'?'☀️':'🌙';$('#tl').textContent=t==='dark'?'LIGHT':'DARK';try{localStorage.setItem('tf-theme',t)}catch(e){}}
 let saved=null;try{saved=localStorage.getItem('tf-theme')}catch(e){}
-setTheme(saved||'dark');
+setTheme('light');
 $('#theme').onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');
 /* Mobile menu */
 $('#burger').onclick=()=>$('#links').classList.toggle('on');
